@@ -5,7 +5,7 @@ from prettytable import PrettyTable
 from datetime import datetime as dt
 from colorama import Fore, Back, Style
 
-convert = input('Enter the currency: ')
+convert = input('Enter the currency: example USD ')
 convert = convert.upper()
 
 linking_url = 'https://api.coinmarketcap.com/v2/listings/?convert=' + convert
