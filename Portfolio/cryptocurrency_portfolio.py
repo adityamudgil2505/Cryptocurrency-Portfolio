@@ -17,8 +17,8 @@ data = result['data']
 ticker_url_pair = {}
 for currency in data:
     symbol = currency['symbol']
-    id = currency['id']
-    ticker_url_pair[symbol] = id
+    _id = currency['id']
+    ticker_url_pair[symbol] = _id
 
 print('\nMY PORTFOLIO\n')
 portfolio_value = 0.00
