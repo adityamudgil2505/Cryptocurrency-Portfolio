@@ -10,3 +10,19 @@ The user has to enter the currency code when you run 'cryptocurrency_portfolio.p
             
   example:
             btc 14 500000.4
+            
+## Python Modules used
+- Request
+- Prettytable
+- Coloroma
+- Datetime
+
+### How to use
+1. Install all required packages
+2. You have to enter basic details in file 'portfolio.txt' about your currency in particular format as mentioned above.
+3. Run cryptocurrency_portfolio.py
+4. Enjoy the application.
+
+## Screenshots
+Pretty Table
+![alt Pretty Table](https://github.com/adityamudgil2505/Cryptocurrency-Portfolio/blob/master/Assets/Screenshot.png)
